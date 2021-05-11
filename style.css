@@ -1,3 +1,49 @@
+/* OVERALL PAGE STYLE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY STYLE START */
+body {
+  background-color: #d9dcd6;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* BODY STYLE END */
+
+/* HEADER STYLE START */
+header {
+  padding: 30px;
+  background-color: rgb(41, 58, 90);
+  color: rgb(42, 70, 121);
+}
+
+header h1 {
+  font-size: 48px;
+  display: inline-block;
+  background-color: rgb(124, 206, 199);
+}
+
+header nav {
+  padding-top: 15px;
+  margin-right: 10px;
+  float: right;
+  font-size: 20px;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* HEADER STYLE END*/
+
 /* Hero Style Start */
 .hero {
   background-image: url("../02-Challenge/Assets/image/1.hero-image.jpg");
