@@ -46,5 +46,11 @@ a {
 
 /* Hero Style Start */
 .hero {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 25px;
+
+  background-size: cover;
+  background-position: center;
   background-image: url("../02-Challenge/Assets/image/1.hero-image.jpg");
 }
