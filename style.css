@@ -54,3 +54,12 @@ a {
   background-position: center;
   background-image: url("../02-Challenge/Assets/image/1.hero-image.jpg");
 }
+
+section h2 {
+  padding: 25px;
+  margin: 80px 25px 25px 25px;
+  float: right;
+  font-size: 35px;
+  background-color: rgb(188, 209, 228);
+}
+/* Hero Style End */
