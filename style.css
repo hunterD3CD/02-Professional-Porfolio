@@ -44,7 +44,7 @@ a {
 }
 /* HEADER STYLE END*/
 
-/* Hero Style Start */
+/* HERO IMAGE STYLE START */
 .hero {
   height: 200px;
   width: 100%;
@@ -62,4 +62,32 @@ section h2 {
   font-size: 35px;
   background-color: rgb(188, 209, 228);
 }
-/* Hero Style End */
+/* HERO IMAGE STYLE END */
+
+/* FIRST CONTENT: ABOUT ME */
+.content {
+  margin: 10px 10px 10px 10px;
+  padding: 50px;
+  width: 100%;
+  background-color: aliceblue;
+  /* flex content */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.content h3 {
+  color: rgb(74, 138, 190);
+  font-size: 46px;
+  /* flex: 1 30%; */
+  border-right: solid 5px blue;
+  width: 20%;
+  padding: 100px 10px 100px 10px;
+}
+
+.content div {
+  /* flex: 2 70%; */
+  width: 70%;
+}
