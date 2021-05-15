@@ -75,7 +75,6 @@ section h2 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* align-items: center; */
 }
 
 .content h3 {
@@ -87,7 +86,23 @@ section h2 {
   padding: 100px 10px 100px 10px;
 }
 
-.content div {
+.AboutMe {
   /* flex: 2 70%; */
   width: 70%;
+}
+
+/* THIRD CONTENT: CONTACT ME */
+.ContactMe {
+  width: 70%;
+  /* flex content */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.content p2 {
+  padding-bottom: 10px;
+  background-color: rgb(212, 227, 255);
+  border-bottom: solid 3px blue;
 }
