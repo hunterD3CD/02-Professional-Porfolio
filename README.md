@@ -11,7 +11,7 @@ A portfolio website that hosts my projects and showcase my webdesign skills.
 
 # Website:
 
-https://hunterd3cd.github.io/01-HTML-Git-CSS-Refactor/
+https://hunterd3cd.github.io/02-Professional-Porfolio/
 
 # Contribution:
 
@@ -19,4 +19,4 @@ Made by Hunter.Deng
 
 # Image:
 
-![01-html-css-git-homework-refactor](https://user-images.githubusercontent.com/82790906/117582479-07b8fe00-b0b7-11eb-9b24-7b05f7419f55.png)
+![website overview](https://user-images.githubusercontent.com/82790906/118414299-9817b580-b658-11eb-8495-fddfd9ca1ecc.png)
