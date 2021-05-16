@@ -1,11 +1,11 @@
-/* OVERALL PAGE STYLE */
+/* ---------------------OVERALL PAGE STYLE-------------------- */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* BODY STYLE START */
+/* ---------------------BODY STYLE START---------------------- */
 body {
   background-color: #d9dcd6;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -13,7 +13,7 @@ body {
 }
 /* BODY STYLE END */
 
-/* HEADER STYLE START */
+/* ---------------------HEADER STYLE START-------------------- */
 header {
   padding: 30px;
   background-color: rgb(41, 58, 90);
@@ -44,7 +44,7 @@ a {
 }
 /* HEADER STYLE END*/
 
-/* HERO IMAGE STYLE START */
+/* --------------------HERO IMAGE STYLE START------------------ */
 .hero {
   height: 200px;
   width: 100%;
@@ -64,7 +64,7 @@ section h2 {
 }
 /* HERO IMAGE STYLE END */
 
-/* FIRST CONTENT: ABOUT ME */
+/* ----------------------CONTENT STYLE START-------------------*/
 .content {
   margin: 10px 10px 10px 10px;
   padding: 50px;
@@ -86,11 +86,73 @@ section h2 {
   padding: 100px 10px 100px 10px;
 }
 
+/* FIRST CONTENT: ABOUT ME */
 .AboutMe {
   /* flex: 2 70%; */
   width: 70%;
 }
 
+/* SECOND CONTENT:WORK */
+#ContentWork {
+  margin: 10px 10px 10px 10px;
+  padding: 50px 50px 200px 50px;
+  width: 100%;
+  background-color: aliceblue;
+  /* flex content */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Works {
+  width: 70%;
+  /* flex content */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Work {
+  padding: 50px 50px 50px 50px;
+  margin: 10px;
+  border: solid 5px rgb(0, 162, 255);
+  background-size: cover;
+  background-position: center;
+}
+
+.Work p3 {
+  color: aliceblue;
+  font-weight: large;
+  font-size: 25px;
+}
+
+#Work1 {
+  flex: 1 70%;
+  background-image: url("../02-Challenge/Assets/image/work1.jpg");
+}
+
+#Work2 {
+  flex: 2 30%;
+  background-image: url("../02-Challenge/Assets/image/work2.jpg");
+}
+
+#Work3 {
+  flex: 2 30%;
+  background-image: url("../02-Challenge/Assets/image/work3.jpg");
+}
+
+#Work4 {
+  flex: 1;
+  background-image: url("../02-Challenge/Assets/image/work4.PNG");
+}
+
+#Work5 {
+  flex: 1;
+  background-image: url("../02-Challenge/Assets/image/work5.PNG");
+}
 /* THIRD CONTENT: CONTACT ME */
 .ContactMe {
   width: 70%;
