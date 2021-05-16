@@ -15,27 +15,37 @@ body {
 
 /* ---------------------HEADER STYLE START-------------------- */
 header {
-  padding: 30px;
+  padding: 35px;
   background-color: rgb(41, 58, 90);
   color: rgb(42, 70, 121);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 header h1 {
   font-size: 48px;
-  display: inline-block;
   background-color: rgb(124, 206, 199);
 }
 
 header nav {
-  padding-top: 15px;
-  margin-right: 10px;
-  float: right;
-  font-size: 20px;
+  margin: 7px 0;
 }
 
-header nav ul li {
-  display: inline-block;
-  margin-left: 50px;
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  margin: 10px;
+  font-weight: lighter;
+  font-size: 2.5vw;
+  border-bottom: solid 3px rgb(50, 209, 188);
 }
 
 a {
@@ -186,4 +196,66 @@ footer {
   text-align: center;
   color: rgb(53, 92, 79);
   padding: 5px;
+}
+
+/* ----------------------FLEXIBILITY TO SCREEN-------------------*/
+
+/* Fit in ipad screen 768px */
+@media screen and (max-width: 768px) {
+  header {
+    padding-bottom: 15;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 15px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  .content h3 {
+    color: rgb(103, 197, 158);
+    font-size: 30px;
+    border-right: solid 5px rgb(255, 230, 0);
+    width: 20%;
+    padding: 100px 10px 100px 10px;
+  }
+}
+
+/* Fit in ipad screen 575px */
+@media screen and (max-width: 575px) {
+  header h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  header nav ul li a {
+    font-size: 5px;
+    padding-bottom: 5px;
+  }
+  .content {
+    padding: 5px;
+  }
+
+  #ContentWork {
+    padding: 5px;
+  }
+
+  .content h3 {
+    color: rgb(197, 103, 147);
+    font-size: 15px;
+    border-right: solid 5px rgb(255, 230, 0);
+    width: 25%;
+    padding: 100px 10px 100px 10px;
+  }
 }
