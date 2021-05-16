@@ -16,11 +16,17 @@ body {
 /* ---------------------HEADER STYLE START-------------------- */
 header {
   padding: 35px;
-  background-color: rgb(41, 58, 90);
+  background-color: rgba(41, 58, 90, 0.8);
   color: rgb(42, 70, 121);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  /* sticky header */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+  z-index: 9999;
 }
 
 header h1 {
@@ -46,6 +52,15 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 2.5vw;
   border-bottom: solid 3px rgb(50, 209, 188);
+  /* add alongside your existing declarations */
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+/* add hover effect */
+header nav ul li a:hover {
+  color: cadetblue;
+  background-color: cornsilk;
+  border-radius: 10px;
+  text-shadow: none;
 }
 
 a {
@@ -90,6 +105,8 @@ section h2 {
 .content h3 {
   color: rgb(74, 138, 190);
   font-size: 46px;
+  /* add alongside your existing declarations */
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   /* flex: 1 30%; */
   border-right: solid 5px blue;
   width: 20%;
@@ -143,6 +160,16 @@ section h2 {
   border: solid 5px rgb(0, 162, 255);
   background-size: cover;
   background-position: center;
+  /* add shadow to box */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* add hover effect */
+.Work:hover {
+  padding: 100px 100px 100px 100px;
+  margin: 10px;
+  border: solid 10px rgb(255, 145, 0);
+  border-radius: 10px;
 }
 
 .Work p3 {
