@@ -77,7 +77,7 @@ a {
 
   background-size: cover;
   background-position: center;
-  background-image: url("../02-Challenge/Assets/image/1.hero-image.jpg");
+  background-image: url(../02-Challenge/Assets/image/1.hero-image.jpg);
 }
 
 section h2 {
